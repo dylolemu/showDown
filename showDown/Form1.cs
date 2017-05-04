@@ -405,7 +405,7 @@ namespace showDown
             }
             if (start == true)
             {
-                if (e.KeyCode == Keys.M)
+                if (e.KeyCode == Keys.Space)
                 {
                     areaIncrease = true;
                     down1 = 0;
@@ -431,19 +431,19 @@ namespace showDown
                         g1 = false;
                     }
                 }
-                if (e.KeyCode == Keys.Space)
+                if (e.KeyCode == Keys.M)
                 {
                     multiply = true;
                     down1 = 0;
                 }
-                if (e.KeyCode == Keys.Q)
+                if (e.KeyCode == Keys.Z)
                 {
                     down2 = 0;
                     multiply2 = true;
                 }
                 if (e.KeyCode == Keys.S) { downk2 = true; }
                 if (e.KeyCode == Keys.W) { upk2 = true; }
-                if (e.KeyCode == Keys.E)
+                if (e.KeyCode == Keys.X)
                 {
                     down2 = 0;
                     areaIncrease2 = true;
